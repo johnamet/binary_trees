@@ -29,4 +29,5 @@ void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int));
 size_t binary_tree_height(const binary_tree_t *tree);
 size_t binary_tree_size(const binary_tree_t *tree);
 size_t binary_tree_nodes(const binary_tree_t *tree);
+binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value);
 #endif
