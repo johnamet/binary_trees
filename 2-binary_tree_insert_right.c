@@ -4,7 +4,7 @@
  * right-child of another node
  * @parent: Pointer to the parent node
  * @value: the value to store in the new node
- * return: Return NULL on failure
+ * Return: Return NULL on failure
  */
 
 binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)
