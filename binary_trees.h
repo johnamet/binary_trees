@@ -1,6 +1,8 @@
 #ifndef BINARY_TREES
 #define BINARY_TREES
 #include <stddef.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * struct binary_tree_s - Binary tree node
@@ -30,4 +32,5 @@ size_t binary_tree_height(const binary_tree_t *tree);
 size_t binary_tree_size(const binary_tree_t *tree);
 size_t binary_tree_nodes(const binary_tree_t *tree);
 binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value);
+int binary_tree_is_full(const binary_tree_t *tree);
 #endif
